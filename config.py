@@ -1,0 +1,16 @@
+# SQLite database file
+DB_PATH="facedata.db"
+
+#Database
+EYE_DISTANCE_THRESHOLD = 0.4
+FACE_DISTANCE_THRESHOLD = 0.6
+
+#liveness detection
+EAR_THRESHOLD = 0.28
+BLINKS_REQUIRED = 1
+LIVENESS_TIME = 3.0
+EAR_FRAMES = 1
+HOLD_TIME = 3.0
+
+#video source
+VIDEO_SOURCE = 0
